@@ -214,7 +214,8 @@ include::{home}/nested.properties[]
 
 <1> Per default, nested configuration keys are separated with a dot from each other.
 <2> Collection types simply require numerical keys (starting at 0).
-<3> Map types can use any key excluding the delimiter.
+<3> Collection could also represented as property keys with `[index]` dereferencers. Like the formats in spring boot.
+<4> Map types can use any key excluding the delimiter.
 
 === Environment Variables and System Properties Format
 
